@@ -1,0 +1,21 @@
+==============================================================================
+                  Piccolo: An Ultra-Lightweight Blockcipher.
+==============================================================================
+For more informations see:
+
+            http://www.springerlink.com/content/x625553x26332pql
+
+WARNING: DO NOT use this implementation in productive systems! For
+experimentation ONLY.
+==============================================================================
+
+Usage
+
+80-bit key:
+./piccolo-80 -p "01234567 89abcdef" -k "00112233 44556677 8899" 
+// result: 8d2bff99 35f84056
+
+128-bit key:
+./piccolo-128 -p "0123456 89abcdef" -k "00112233 44556677 8899aabb ccddeeff"
+// result: 5ec42cea 657b89ff
+
